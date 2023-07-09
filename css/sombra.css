@@ -1,9 +1,12 @@
+
 body{
 	margin: 0;
 	font-family: helvetica, arail, sans-serif;
 	font-size: 20px;
 	line-height: 30px;
 	background-color: #ee77f2;
+	max-width: 100%;
+
 
 }
 
@@ -12,11 +15,13 @@ header{
 	text-align: center;
 	padding-top: 50px;
 	padding-bottom: 50px;
+	max-width: 100%;
 }
 
 h1{
 	font-family: 'Dancing Script', cursive;
 	font-size: 50px;
+	max-width: 100%;
 }
 
 /* header styles */
@@ -24,6 +29,7 @@ h1{
 
 header h1{
 	color: darkblue;
+	max-width: 100%;
 
 }
 
@@ -31,11 +37,12 @@ header img{
 	border-radius: 230px;
 	width: 350px;
 	border: 10px solid #ebebeb;
+	max-width: 100%;
 
 }
 
 main{
-	max-width: 800px;
+	max-width: 100%;
 	padding: 20px;
 	background-color: #ee77f2;
 }
@@ -43,48 +50,57 @@ main{
 h2{
 	font-size: 35px;
 	margin: 40px 10px;
+	max-width: 100%;
 }
 
 
 p{
 	font-size: 20px;
+	max-width: 600px;
 }
 
 a{
 	color: #a225b8;
+	max-width: 100%;
 }
 
 a:hover{
 	color: #a480f2;
+	max-width: 100%;
 }
 
 footer{
 	color: white;
 	text-align: center;
 	padding: 50px;
-	background-color:#9c13a1 ;
+	background-color:#9c13a1 ;\
+	max-width: 100%;
 
 }
 
 footer p{
 	margin: 0;
+	max-width: 100%;
 }
 
 p.caption{
 	color: #999999;
 	font-style: italic;
 	margin: 0;
+	max-width: 100%;
 }
 
 li{
 	width: 1400px;
+	max-width: 100%;
 }
 
 img{
 	width: 300px;
-	
+	max-width: 100%;
 }
 
 img[src*="sombra2.jpg"]{
 	padding-left: 20px;
+	max-width: 100%;
 }
